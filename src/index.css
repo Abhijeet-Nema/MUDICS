@@ -1,13 +1,96 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.player {
+  height: 14%;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #0b3954;
+  color: #f7f0f0;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 0.9fr 2fr 0.7fr;
+  column-gap: 0.5rem;
+  font-family: "Varela Round", sans-serif;
+}
+
+.playerItems {
+  /* border: 1px solid; */
+}
+
+#songInfo {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+/* .coverAlbum {
+} */
+.coverAlbum img {
+  height: 4.5rem;
+  border-radius: 4px;
+}
+.Artist {
+  font-size: 12px;
+}
+.songDetails {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+#playerControls {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#playerControls div {
+  border-radius: 1px solid;
+}
+
+.queueControls i {
+  font-size: 28px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+  transform-origin: center;
+}
+
+.queueControls i:hover {
+  opacity: 1;
+}
+
+#play_pause:hover {
+  transform: scale(1.07);
+}
+.progressBar {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#progressBarRange {
+  width: 85%;
+  height: 4px;
+  cursor: pointer;
+}
+#deviceControls i {
+  color: #f7f0f0;
+}
+
+#volumeRange {
+  height: 2.5px;
+}
+
+#deviceControls {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
