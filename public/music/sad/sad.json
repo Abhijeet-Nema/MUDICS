@@ -1,0 +1,24 @@
+{
+    "genre": "sad",
+    "genre_id": 2,
+    "songs": [
+        {
+            "name": "Kesariya (Bhramastra) sad",
+            "path": "./music/happy/kesariya.mp3",
+            "cover": "./covers/kesariya.jpg",
+            "artists": "Arijit Singh, Pritam"
+        },
+        {
+            "name": "Kesariya (Bhramastra) sad",
+            "path": "./music/happy/kesariya.mp3",
+            "cover": "./covers/kesariya.jpg",
+            "artists": "Arijit Singh, Pritam"
+        },
+        {
+            "name": "Kesariya (Bhramastra) sad",
+            "path": "./music/happy/kesariya.mp3",
+            "cover": "./covers/kesariya.jpg",
+            "artists": "Arijit Singh, Pritam"
+        }
+    ]
+}

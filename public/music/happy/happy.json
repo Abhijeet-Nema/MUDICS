@@ -1,0 +1,34 @@
+{
+    "genre": "happy",
+    "genre_id": 1,
+    "songs": [
+        {
+            "name": "Kesariya (Bhramastra) 1",
+            "path": "./music/happy/kesariya.mp3",
+            "cover": "./covers/kesariya.jpg",
+            "artists": "Arijit Singh, Pritam",
+            "duration": 4.28
+        },
+        {
+            "name": "Kesariya (Bhramastra) 2",
+            "path": "./music/happy/kesariya.mp3",
+            "cover": "./covers/kesariya.jpg",
+            "artists": "Arijit Singh, Pritam",
+            "duration": 4.28
+        },
+        {
+            "name": "Kesariya (Bhramastra) 3",
+            "path": "./music/happy/kesariya.mp3",
+            "cover": "./covers/kesariya.jpg",
+            "artists": "Arijit Singh, Pritam",
+            "duration": 4.28
+        },
+        {
+            "name": "Kesariya (Bhramastra) 4",
+            "path": "./music/happy/kesariya.mp3",
+            "cover": "./covers/kesariya.jpg",
+            "artists": "Arijit Singh, Pritam",
+            "duration": 4.28
+        }
+    ]
+}
